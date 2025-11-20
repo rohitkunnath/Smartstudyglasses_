@@ -22,7 +22,7 @@ If the user gets distracted or stops studying, the system alerts them through a 
 
 ### **2️⃣ Book Detection Using YOLOv8**
 - The live video is processed by the Python script:  
-  **`smartstudy_glasses.py`**
+  **`smartstudyglasses.py`**
 - A **custom-trained YOLOv8 model** detects if a book is present in front of the user.
 - If **book is detected → user is studying**  
 - If **no book detected → user is distracted**
@@ -58,7 +58,7 @@ If the user gets distracted or stops studying, the system alerts them through a 
 ---
 
 ## 📂 Repository Structure
-
+```bash
 📁 esp32/ → Code for the smart band ESP32 
 📁 esp32_cam/ → Code for the ESP32-CAM 
 📄 smartstudy_glasses.py → Python script for YOLOv8 book detection
@@ -69,7 +69,7 @@ If the user gets distracted or stops studying, the system alerts them through a 
 📄 README.md 
 
 
----
+```
 
 ## 🔧 Technologies Used
 
@@ -106,4 +106,4 @@ Upload the code from `esp32/` to control the vibration motor.
 
 ### 3️⃣ Run Book Detection
 ```bash
-python3 smartstudy_glasses.py
+python3 smartstudyglasses.py
